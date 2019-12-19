@@ -1,0 +1,24 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "página web personal",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sikic/P-gina-CV.git"
+  },
+  "author": "Luis Antonio Rojas Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sikic/P-gina-CV/issues"
+  },
+  "homepage": "https://github.com/sikic/P-gina-CV#readme"
+}
