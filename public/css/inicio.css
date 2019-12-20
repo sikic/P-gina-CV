@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+.principal {
+    margin-left: 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.css-shapes-preview {
+    position: relative;
+    height: 400px;
+    width: 0px;
+    padding: 0px;
+    top: 50px;
+    left: 15px;
+    transform: rotate(0deg) skew(0deg);
+    -webkit-transform: rotate(0deg) skew(0deg);
+    border-top: 0px transparent;
+    border-left: 105px solid rgb(190, 59, 202);
+    border-right: 105px solid rgb(190, 59, 202);
+    border-bottom: 40px solid transparent;
+}
+
+.foto {
+    border: 1px solid green;
+    width: 180px;
+    margin-left: -90px;
+}
+
+.vainilla{
+    color: rgb(24, 24, 24);
+    font-family: 'Courgette', cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+}

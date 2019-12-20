@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Girassol&display=swap');
+* {
+   /* border: 1px solid red;  */
+}
+
+body {
+    background-image: url(/img/fondo.jpg) !important;
+}
+
+#menu {
+    padding: 1%;
+    width: 12.5%;
+    margin-left: 2%;
+}
+
+#menu a {
+    border: 2px solid rgb(29, 28, 28);
+    margin-bottom: 5%;
+    width: 100%;
+}
+#menu a:hover {
+    width: 30%;
+}
+
+img {
+    margin-left: 1.2em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    width: 80%;
+}
+
+.slide-in {
+    animation-duration: 1.5s;
+    -webkit-animation-name: mover;
+}
+
+@-webkit-keyframes mover {
+    from {
+        margin-left: 900%;
+        width: 300%;
+    }    
+}
+
+.nombre{
+    margin-left: 15%;
+    margin-top: 3.5%;
+    width: 50%;
+    font-family: 'Girassol', cursive;
+}
