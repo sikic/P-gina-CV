@@ -15,7 +15,7 @@
     height: 400px;
     width: 0px;
     padding: 0px;
-    top: 50px;
+    top: 30px;
     left: 15px;
     transform: rotate(0deg) skew(0deg);
     -webkit-transform: rotate(0deg) skew(0deg);
@@ -24,7 +24,12 @@
     border-right: 105px solid rgb(190, 59, 202);
     border-bottom: 40px solid transparent;
 }
-
+.titulo{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: auto;
+    border: 1px solid;
+}
 .foto {
     border: 1px solid green;
     width: 180px;

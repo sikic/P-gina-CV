@@ -1,20 +1,23 @@
 *{
-    border: 1px solid red;
+     /* border: 1px solid red;  */
 }
 
 .principal {
-    margin-left: 15%;
+    margin-left: 17%;
+    margin-top: 5%;
+}
+
+.titulo{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: auto;
+    border: 1px solid;
 }
 li{
     list-style: none;
 }
 .gif{
-    width: 3%;
-    border: 1px solid red;
-
-}
-
-#nacimiento{
+    width: 7%;
 }
 
 

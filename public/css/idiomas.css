@@ -1,0 +1,101 @@
+*{
+    border: 1px solid red;
+}
+
+.principal {
+    margin-left: 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.español {
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    display: inline-block;
+    border-width: 4px 0;
+    padding: 1.5em 0em;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 20em;
+    margin: 0 0 0 -20em;
+}
+
+.titulo{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: auto;
+    border: 1px solid;
+}
+.ingles {
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    display: inline-block;
+    border-width: 4px 0;
+    padding: 1.5em 0em;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    width: 20em;
+    margin: 0 0 0 -20em;
+}
+
+.spain {
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: .25em 0 .325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(92, 84, 84, 0.185);
+    /* Clip Background Image */
+    background: url(/img/españa.png) repeat-y;
+    background-size: 5%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Animate Background Image */  
+    -webkit-text-fill-color: rgba(14, 13, 13, 0.527);
+    -webkit-animation: aitf 8s linear infinite;
+    /* Activate hardware acceleration for smoother animations */
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+}
+
+.english {
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: .25em 0 .325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(92, 84, 84, 0.185);
+    /* Clip Background Image */
+    background: url(/img/inglaterra.png) repeat-y;
+    background-size: 10%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Animate Background Image */  
+    -webkit-text-fill-color: rgba(14, 13, 13, 0.527);
+    -webkit-animation: aitf 8s linear infinite;
+    /* Activate hardware acceleration for smoother animations */
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+}
+
+
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.tam{
+    font-size: 150px;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 27%;
+}
